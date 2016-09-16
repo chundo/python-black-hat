@@ -30,10 +30,10 @@ def main():
 		main()
 
 def buscar():
-	CONSUMER_KEY = '4knMbkyE8UPg9BRYGeQgcuJyt'
-	CONSUMER_SECRET = 'isolgwWnQBH3FFwfJ2EkrF8KkEZ9m8OPiH5CywSFzhKzoSL5Jc'
-	ACCESS_TOKEN_KEY = '297410594-Wdpr9p6lOJgGQJDOZegYL4bgvLONtWMV2JmtYTkm'
-	ACCESS_TOKEN_SECRET = 'IXVzUOmyw7oYzFSvXc9hiyCMNkp7TZf6zAb7u4R3BGjkk'
+	CONSUMER_KEY = 'tu'
+	CONSUMER_SECRET = 'tu'
+	ACCESS_TOKEN_KEY = 'tu-tu'
+	ACCESS_TOKEN_SECRET = 'tu'
 	api = TwitterAPI(CONSUMER_KEY, CONSUMER_SECRET, ACCESS_TOKEN_KEY, ACCESS_TOKEN_SECRET)
 	buscar = raw_input('Ingrese busqueda: ')	
 	r = api.request('search/tweets', {'q':buscar})
@@ -42,10 +42,10 @@ def buscar():
 	    print('------------------------------------------------------------------------')
 
 def filtrar():
-	CONSUMER_KEY = '4knMbkyE8UPg9BRYGeQgcuJyt'
-	CONSUMER_SECRET = 'isolgwWnQBH3FFwfJ2EkrF8KkEZ9m8OPiH5CywSFzhKzoSL5Jc'
-	ACCESS_TOKEN_KEY = '297410594-Wdpr9p6lOJgGQJDOZegYL4bgvLONtWMV2JmtYTkm'
-	ACCESS_TOKEN_SECRET = 'IXVzUOmyw7oYzFSvXc9hiyCMNkp7TZf6zAb7u4R3BGjkk'
+	CONSUMER_KEY = 'tu'
+	CONSUMER_SECRET = 'tu'
+	ACCESS_TOKEN_KEY = '297410594-tu'
+	ACCESS_TOKEN_SECRET = 'tu'
 	api = TwitterAPI(CONSUMER_KEY, CONSUMER_SECRET, ACCESS_TOKEN_KEY, ACCESS_TOKEN_SECRET)
 	buscar = raw_input('Ingrese filtro: ')
 	r = api.request('statuses/filter', {'locations':buscar})
