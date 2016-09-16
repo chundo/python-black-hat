@@ -6,10 +6,10 @@ from TwitterAPI import TwitterAPI
 def main():
 	#SEARCH_TERM = 'sr_espana, @sr_espana'
 	#buscar = raw_input('Ingrese busqueda: ')
-	CONSUMER_KEY = 's'
-	CONSUMER_SECRET = 's'
-	ACCESS_TOKEN_KEY = 's-Wdpr9p6lOJgGQJDOZegYL4bgvLONtWMV2JmtYTkm'
-	ACCESS_TOKEN_SECRET = 's'
+	CONSUMER_KEY = 'tu-KEY'
+	CONSUMER_SECRET = 'tu-SECRET'
+	ACCESS_TOKEN_KEY = 'tu-TOKEN_KEY'
+	ACCESS_TOKEN_SECRET = 'tu-TOKEN_SECRET'
 	api = TwitterAPI(CONSUMER_KEY, CONSUMER_SECRET, ACCESS_TOKEN_KEY, ACCESS_TOKEN_SECRET)
 
 	print '# Cupones'
