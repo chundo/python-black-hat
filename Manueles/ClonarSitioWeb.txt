@@ -1,0 +1,14 @@
+clonar un sitio web en la misma red
+
+https://www.youtube.com/watch?v=l-D0jKCr588
+
+1. abre una terminal
+2. leafpad /etc/ettercap/etter.dns #editamos el archivo
+3. buscamos microsoft sucks y editamos los dominios que queremos clona y las ip con la del atacante (ifconfig)
+4. en el terminar abro setoolkit 
+5. selecciono #1 Social-Engineering Attacks
+6. selecciono #2 Website Attack Vectors
+7. selecciono #3 Credential Harvester Attack Method
+8. selecciono #2 Site Cloner
+9. ingreso la informacion requerida
+10 veo los datos aqui /var/www/html

